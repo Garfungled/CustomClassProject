@@ -1,4 +1,4 @@
-This is a project for my AP Java class.
+This is a project for my AP Java class, thus, we are extremely limited in the Java features we're allowed to use (arrays, arraylists, etc). Thus, this code isn't "optimized". I'm simply testing how far I can get with the tools I'm given.
 
 # ROOT filing system
 

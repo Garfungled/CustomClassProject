@@ -39,6 +39,10 @@ public class File {
         this.description = description;
     }
 
+    /*-------------------------Actions---------------------------------*/
+    public void write(String buffer) throws java.io.IOException {}
+    public String read() throws java.io.IOException  {return "";}
+
     /*-------------------------Basic Class Functions---------------------------------*/
     public String toString() {
         return parent.toString() + "/" + this.name + this.fileExtension;
@@ -51,7 +55,7 @@ public class File {
 
     // The actual directory within the users OS
     public String getDirectoryREAL() {
-        return System.getProperty("user.dir") + "/" + this.getDirectory();
+        return this.parent.getDirectoryREAL() + "/" + this.getNameFull();
     }
 
     public String properties() {

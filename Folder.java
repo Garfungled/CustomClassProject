@@ -98,7 +98,6 @@ public class Folder {
         subfile.setParent(this);
         this.subfile1 = subfile;
         java.io.File newFile = new java.io.File(this.subfile1.getDirectoryREAL());
-        System.out.println(this.subfile1.getDirectoryREAL());
         newFile.createNewFile();
 
         return true;

@@ -17,7 +17,6 @@ public class ROOT extends Folder {
         // usr folders/files
         this.getSubfolder1().addSubFolder("Desktop");
         this.getSubfolder1().addSubFolder("Documents");
-        this.getSubfolder1().getSubfolder2().addSubfile(new DOTtxt("testText"));
         this.getSubfolder1().addSubFolder("Applications");
 
         // bin folders/files

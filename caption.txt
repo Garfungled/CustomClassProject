@@ -1,0 +1,2 @@
+I got the logo from first using https://www.asciiart.eu/text-to-ascii-art to turn the text "ROOT" into an aschii art png. I then used https://imageresizer.com/ to turn the image into a 100x100 image.
+For scene, I took a screenshot of my currently working file system UI that displays each folder and its subfolders/subfiles.
